@@ -3,9 +3,31 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+p {
+  font-size: Georgia, "Time New Roman", serif;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.btn {
+  border: 3px solid #fec63e;
+  padding: 10px 30px;
+  color: #fec63e;
+  font-size: 14px;
+  line-height: 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 0.1em;
+}
+
+.btn:hover {
+  color: #fff;
+  border-color: #fff;
+}
+
 /*header*/
 .header {
-  position: fixed;
+  position: ;
   width: 100%;
   background: #fec63e;
   padding: 15px 0;
@@ -41,7 +63,6 @@ body {
   height: 380px;
   background: url("../img/bg.jpg") no-repeat center;
   background-size: cover;
-  margin-top: px;
   padding-top: 80px;
   text-align: center;
   padding-top: 80px;
@@ -55,6 +76,29 @@ body {
 }
 
 .quote-externo {
-  max-width: 400px;
+  max-width: 320px;
   margin: 0 auto;
+  color: #fff;
+  margin-bottom: 40px;
+}
+
+.quote-externo p {
+  font-style: italic;
+}
+
+.quote-externo p:before,
+.quote-externo p:after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: #fff;
+  margin: 14px auto 10px auto;
+}
+
+.quote-externo cite {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  letter-spacing: 0.1em;
 }
